@@ -7,7 +7,7 @@ function makeListeners () {
   $(".btnLeft").on("click", function () {move("left") } )
   $(".btnDown").on("click", function () {move("down") } )
   $(".btnRight").on("click", function () {move("right") } )
-  $(document).keydown(function(key) {
+  $(document).keyup(function(key) {
     switch(key.which) {
       case 37: //left
       move("left")
