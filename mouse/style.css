@@ -1,0 +1,22 @@
+
+html,body{
+  box-sizing : border-box;
+
+  height     : 100%;
+  width      : 100%;
+  margin     : 0;
+  padding    : 0;
+}
+
+body{
+  position : relative;
+}
+
+img{
+  position : absolute;
+  top      : calc(50% - 19px);
+  left     : calc(50% - 25px);
+
+  height   : 38px;
+  width    : 50px;
+}
