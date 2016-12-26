@@ -71,7 +71,7 @@ function getScore(word) {
 }
 
 populateScrabbleScore() // makes one for one key for scoring into scrabbleScore
-console.log(longestWordSearch("abcdefghijklmnopqrstuvwxyz", dictArray))
-console.log(highestScoringWordSearch("abcdefghijklmnopqrstuvwxyz", dictArray))
+console.log(longestWordSearch("vaakojeaietg????????", dictArray))
+console.log(highestScoringWordSearch("vaakojeaietg????????", dictArray))
 console.log(getScore("dermatoglyphics"))
-console.log(getScore("phagocytized"))
+console.log(getScore("razzamatazzes"))
