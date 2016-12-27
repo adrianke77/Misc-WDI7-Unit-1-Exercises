@@ -22,9 +22,9 @@ function randomItem(array) {
 
 console.log(randomItem(['hello', 'hi', 'bye']))
 
-function arrayRange(start, end, step) {
+function arrayRange(start, noOfSteps, step) {
   var outArray = []
-  for (var i = start; i < end +1 ; i += step) {
+  for (var i = start; i < start+noOfSteps*step ; i += step) {
     outArray.push(i)
   }
   return outArray
